@@ -3,14 +3,6 @@ import sys
 from PIL import Image
 import os
 
-# if __name__ == "__main__":
-#     print(f"Location of your images?:  {sys.argv[1]=}")
-#     print(f"Desired destination of cropped images?:  {sys.argv[2]=}")
-#     print(f"Left (x) coordinate:  {sys.argv[3]=}")
-#     print(f"Top (y) coordinate:  {sys.argv[4]=}")
-#     print(f"Right (x) coordinate:  {sys.argv[5]=}")
-#     print(f"Bottom (y) coordinate:  {sys.argv[6]=}")
-
 filelist = []
 
 
