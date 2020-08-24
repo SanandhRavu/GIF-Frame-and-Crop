@@ -34,8 +34,8 @@ def multicrop(input, output, left, top, right, bottom):
 
     for i in filelist:
         image = read_image(i)
-        image = crop(image, l, t, r, b)
+        image = crop(image, left, top, right, bottom)
         image.save(output + str(imageno) + '.png')
         imageno += 1
 
-
+multicrop(d, e, l, t, r, b)
