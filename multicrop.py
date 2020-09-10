@@ -5,6 +5,8 @@ import os
 
 filelist = []
 
+def main():
+    multicrop(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5], sys.argv[6])
 
 def read_image(path):
     try:
@@ -33,5 +35,5 @@ def multicrop(input, output, left, top, right, bottom):
         imageno += 1
 
 
-multicrop(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5], sys.argv[6])
+main()
 
