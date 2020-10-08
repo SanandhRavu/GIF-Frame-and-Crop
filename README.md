@@ -1,4 +1,4 @@
-# multi-crop
+# GIF Frame and Crop
 crops multiple images identically based on desired crop coordinates
 
 must input folder paths for location of images and desired destination </br>
